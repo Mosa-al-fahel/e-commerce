@@ -68,7 +68,7 @@ class CartController extends GetxController {
         myservices.sharedPreferences.getString("id")!, itemsId.toString());
 
     if (response["status"] == "success") {
-     Get.rawSnackbar(
+      Get.rawSnackbar(
           backgroundColor: Appcolors.black,
           titleText: const Text(
               textAlign: TextAlign.center,
@@ -80,7 +80,7 @@ class CartController extends GetxController {
           messageText: const Text(
               textAlign: TextAlign.center,
               "add to cart done",
-              style: TextStyle(fontSize: 20, color:Appcolors.white)));
+              style: TextStyle(fontSize: 20, color: Appcolors.white)));
 
       update();
     } else {
@@ -109,7 +109,7 @@ class CartController extends GetxController {
           messageText: const Text(
               textAlign: TextAlign.center,
               "deleted from cart done",
-              style: TextStyle(fontSize: 20, color:Appcolors.white)));
+              style: TextStyle(fontSize: 20, color: Appcolors.white)));
 
       update();
     } else {
