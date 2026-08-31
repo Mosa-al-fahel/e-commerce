@@ -6,8 +6,6 @@ import 'package:app/data/model/cartmodel.dart';
 import 'package:app/data/model/couponModel.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:googleapis_auth/auth_io.dart' as auth;
-import 'package:http/http.dart' as http;
 
 class CartController extends GetxController {
   List<CartModel> data = [];
