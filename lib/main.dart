@@ -16,12 +16,7 @@ void main() async {
   await initialservice();
   Platform.isAndroid
 
-      ? await Firebase.initializeApp(
-          options: const FirebaseOptions(
-              apiKey: "AIzaSyDy0xGTr5pCWyNzZBPZr7lbFK4Ch4bjTLY",
-              appId: "1:191317295575:android:d6308c8a4082ae14a38b92",
-              messagingSenderId: "191317295575",
-              projectId: "ecommerce-c7481"))
+      ? await Firebase.initializeApp()
       : await Firebase.initializeApp();
   // ignore: unused_local_variable
   
