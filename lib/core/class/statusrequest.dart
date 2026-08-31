@@ -1,0 +1,3 @@
+enum StatusRequest {
+  loaidng,
+}
