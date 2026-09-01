@@ -3,7 +3,7 @@
 ### 🚨 Developer's Note (Read First)
 
 **Note to Recruiters & Reviewers:**
-This was **the very first project** I ever built when I started my development journey years ago. I am hosting it here on GitHub for archival purposes and to showcase my career growth. The code, architecture, and patterns used here reflect my skills *at that time* (as a beginner) and do not represent my current technical proficiency, clean code standards, or modern architectural practices. 
+This was **the very first project** I ever built when I started my development journey years ago (2024/11). I am hosting it here on GitHub for archival purposes and to showcase my career growth. The code, architecture, and patterns used here reflect my skills *at that time* (as a beginner) and do not represent my current technical proficiency, clean code standards, or modern architectural practices. 
 
 ### 📌 Project Overview
 
@@ -48,11 +48,8 @@ Looking back at this codebase with my current experience, I would refactor it en
   <!-- الصف الأول (4 صور) -->
   <img src="images/loginx.png" width="200" alt="Screen 1">
   <img src="images/sellx.png" width="200" alt="Screen 2">
-   
-  <br><br> <!-- هذا الوسم يقوم بإنشاء سطر جديد وفصل الصفين -->
-
-  <!-- الصف الثاني (4 صور) -->
-  <img src="images/settingx.png" width="200" alt="Screen 3">
+    <img src="images/settingx.png" width="200" alt="Screen 3">
+  <br><br>
   <img src="images/favx.png" width="200" alt="Screen 4">
   <img src="images/homex.png" width="200" alt="Screen 5">
   <img src="images/cartxx.jpg" width="200" alt="Screen 6">
